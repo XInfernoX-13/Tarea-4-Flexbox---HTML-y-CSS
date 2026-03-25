@@ -1,0 +1,39 @@
+body {
+    font-family: Arial;
+    background: #f4f4f4;
+    margin: 0;
+}
+
+.titulo {
+    font-size: 26px;
+    text-align: center;
+    margin: 25px 0;
+}
+
+table {
+    width: 70%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: rgba(100, 199, 199, 0.5);
+    border: 2px solid #000000;
+}
+
+th {
+    background: #182e4e;
+    padding: 10px;
+    border: 1px solid #000000;
+    color: #41acdd;
+}
+
+td {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+tr:nth-child(even) {
+    background: #f7f7f7;
+}
+
+tr:hover {
+    background: #8bd1dd;
+}
